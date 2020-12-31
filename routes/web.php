@@ -23,4 +23,4 @@ Route::prefix('admin')
         Route::get('/', 'DashboardController@index')->name('dashboard');
     });
 
-Auth::routes();
+Auth::routes(['verify' => true]);

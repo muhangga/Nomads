@@ -73,5 +73,4 @@
 @include('includes..admin.script')
 
 </body>
-
 </html>
