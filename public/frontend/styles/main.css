@@ -1,0 +1,566 @@
+body {
+  background-color: #FFF;
+  font-family: 'Assistant', sans-serif;
+  color: #071C4D;
+  margin: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #071C4D;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #071C4D !important;
+  font-weight: bold;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -18px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+
+.btn-login:hover {
+  background-color: #0D2D75;
+  color: #fff;
+}
+
+header {
+  margin-top: -121px;
+  background-image: url("../images/Mask group@2x.jpg");
+  background-size: cover;
+  padding: 280px 0px 116px;
+}
+
+header h1, header p {
+  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 46px;
+}
+
+header p {
+  font-size: 22px;
+}
+
+header .btn-get-started {
+  background-color: #FB8D39;
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+header .btn-get-started:hover {
+  background-color: #FF9E53;
+  color: #FFF;
+}
+
+.section-stats {
+  margin-top: -50px;
+}
+
+.section-stats .stats-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 20px;
+}
+
+.section-stats h2 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.section-stats p {
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #030816;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+
+.section-popular .section-popular-heading h2, .section-popular .section-popular-heading p {
+  color: #FFF;
+}
+
+.section-popular .section-popular-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.section-popular-content .section-popular-travel .card-travel {
+  min-height: 380px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 7px 10px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 5px 7px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.section-popular-content .section-popular-travel .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details {
+  background-color: #FB8D39;
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #FF9E53;
+  color: #FFF;
+}
+
+.section-network {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+
+.section-network h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-network p {
+  font-size: 18px;
+}
+
+.section-network img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFEFE), to(#EFEFEF));
+  background: linear-gradient(#FFFEFE 0%, #EFEFEF 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+
+.section-testimonial-heading h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+
+.section-testimonial-content .content-testi {
+  margin-left: 36px;
+  margin-top: 30px;
+}
+
+.section-testimonial-content .card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+.section-testimonial-content .card-testimonial .testimonial-content {
+  height: 335px;
+}
+
+.section-testimonial-content .card-testimonial h3 {
+  font-size: 22px;
+}
+
+.section-testimonial-content .card-testimonial .testimonial {
+  font-weight: 200;
+  font-size: 20px;
+  color: #6e6e6e;
+  min-height: 150px;
+}
+
+.section-testimonial-content .card-testimonial .trip-to {
+  font-weight: normal;
+  font-size: 18px;
+  color: #6e6e6e;
+}
+
+.section-testimonial-content .card-testimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.section-testimonial-content .btn-get-started {
+  background-color: #FB8D39;
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #FF9E53;
+  color: #FFF;
+}
+
+.section-testimonial-content .btn-need-help {
+  background-color: #DE5545;
+  color: #FFF;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #EC7263;
+  color: #FFF;
+}
+
+.section-footer a {
+  color: #071C4D;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #101C3D;
+  margin-top: -70px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  min-height: 100vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.section-details-content .breadcrumb-item {
+  color: #C9C9C9;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #C9C9C9;
+}
+
+.card-details {
+  padding: 30px;
+  border-radius: 11px;
+  -webkit-box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-details h1 {
+  font-size: 26px;
+}
+
+.card-details h2 {
+  font-size: 20px;
+}
+
+.card-details p {
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.card-details .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+
+.card-details .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.features {
+  margin-top: 20px;
+}
+
+.features h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.features p {
+  margin-bottom: 0;
+}
+
+.features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.gallery .xzoom-container {
+  display: block;
+}
+
+.gallery .xzoom-container .xzoom {
+  width: 97%;
+  margin-bottom: 10px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.gallery .xzoom-container .xactive {
+  border: 4px solid #1ABC9C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card-detail {
+  padding: 30px;
+  border-radius: 11px;
+}
+
+.card-detail h1 {
+  font-size: 26px;
+}
+
+.card-detail h2 {
+  font-size: 20px;
+}
+
+.card-detail p {
+  font-size: 16px;
+  color: #B1B1B1;
+}
+
+.card-detail thead {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.card-detail tbody {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.card-detail .trip-informations th {
+  font-weight: 300;
+  font-size: 18px;
+  color: #071C4D;
+}
+
+.card-detail .trip-informations td {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+
+.card-detail h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #071C4D;
+}
+
+.card-detail .text-blue {
+  color: #071C4D;
+  font-weight: bold;
+}
+
+.card-detail .text-orange {
+  color: #FF9E53;
+  font-weight: bold;
+}
+
+.payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.bank .bank-item h3 {
+  font-size: 18px;
+  color: #071C4D;
+  margin-bottom: 0;
+}
+
+.bank .bank-item p {
+  margin-bottom: 0;
+}
+
+.bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.bank .bank-item .description p {
+  margin-top: 5px;
+  font-weight: normal;
+  font-size: 16px;
+  color: #071C4D;
+}
+
+.bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+
+.disclaimer {
+  font-weight: 300;
+  font-size: 14px;
+  color: #B1B1B1;
+}
+
+.gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+
+.btn-add-now {
+  background-color: #071C4D;
+  color: #FFF;
+}
+
+.btn-add-now:hover {
+  background-color: #1B3B86;
+  color: #FFF;
+}
+
+.card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+
+.join-container {
+  margin-top: -15px;
+}
+
+.btn-join-now {
+  background-color: #FF9E53;
+  color: #fff;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-join-now:hover {
+  background-color: #FFB57C;
+  color: #fff;
+}
+
+.section-success {
+  height: 90vh;
+}
+
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071C4D;
+}
+
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #b1b1b1;
+}
+
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #071C4D;
+  color: #FFF;
+}
+
+.section-success .btn-home-page:hover {
+  background-color: #2A488E;
+  color: #FFF;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 284px 0 190px;
+  }
+  header h1, header p, header .btn-get-started {
+    margin-left: 30px;
+  }
+  header h1 {
+    font-size: 50px;
+  }
+  .section-stats {
+    margin-top: -50px;
+  }
+  .section-stats .stats-detail {
+    padding-top: 15px;
+    background-color: #fff;
+    padding-left: 40px;
+  }
+  .section-stats h2 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  .section-stats p {
+    font-size: 20px;
+    font-weight: lighter;
+  }
+  .section-testimonial-content .content-testi {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .section-details-content .breadcrumb {
+    padding: 0px;
+  }
+  .btn-add-now {
+    margin-left: 10px;
+    background-color: #071C4D;
+    color: #FFF;
+  }
+  .btn-add-now:hover {
+    background-color: #1B3B86;
+    color: #FFF;
+  }
+}
+/*# sourceMappingURL=main.css.map */
